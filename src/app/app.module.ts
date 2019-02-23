@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { Route, RouterModule } from '@angular/router';
+import { HeaderProfileComponent } from './header-profile/header-profile.component';
 
 const route: Route[] = [
   {
@@ -15,7 +16,8 @@ const route: Route[] = [
 @NgModule({
   declarations: [
     AppComponent,
-    ProfileComponent
+    ProfileComponent,
+    HeaderProfileComponent
   ],
   imports: [
     BrowserModule,

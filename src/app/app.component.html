@@ -1,9 +1,17 @@
 <div class="container">
-  <div class="nav justify-content-center">
-    <li class="nav-item">
-      <a class="nav-link" [routerLink]="['/profile']" routerLinkActive="active">Profile</a>
-    </li>
+  <div class="row">
+    <div class="col">
+      <div class="nav">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/profile']" routerLinkActive="active">Profile</a>
+        </li>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <app-header-profile></app-header-profile>
+    </div>
   </div>
+
 </div>
 <div class="container box-container">
   <router-outlet></router-outlet>
