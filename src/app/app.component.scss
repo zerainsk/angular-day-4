@@ -1,6 +1,14 @@
 :host {
+  .box-nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    & > .nav {
+      padding: 5px;
+    }
+  }
   .box-container {
     background-color: lightgray;
     min-height: 100px;
+    padding: 10px;
   }
 }
