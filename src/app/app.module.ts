@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { Route, RouterModule } from '@angular/router';
 import { HeaderProfileComponent } from './header-profile/header-profile.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 const route: Route[] = [
   {
@@ -21,6 +22,8 @@ const route: Route[] = [
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
     RouterModule.forRoot(route)
   ],
   providers: [],
